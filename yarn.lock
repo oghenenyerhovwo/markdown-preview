@@ -5627,6 +5627,18 @@ makeerror@1.0.12:
   dependencies:
     tmpl "1.0.5"
 
+marked-react@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/marked-react/-/marked-react-1.0.2.tgz#808355c8b7476abfc8b2bda6e781044e1f8d0155"
+  integrity sha512-vEZECDS3i4bnm9AUfYRmJOGZ4/MHqbe/RcvRH8xH6lCKe2gg/LUR3JQEavWfODe/953yvCbv7dTdWR67989WKA==
+  dependencies:
+    marked "^4.0.10"
+
+marked@^4.0.10:
+  version "4.0.10"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-4.0.10.tgz#423e295385cc0c3a70fa495e0df68b007b879423"
+  integrity sha512-+QvuFj0nGgO970fySghXGmuw+Fd0gD2x3+MqCWLIPf5oxdv1Ka6b2q+z9RP01P/IaKPMEramy+7cNy/Lw8c3hw==
+
 mdn-data@2.0.14:
   version "2.0.14"
   resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.14.tgz#7113fc4281917d63ce29b43446f701e68c25ba50"

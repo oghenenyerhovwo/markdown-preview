@@ -5,12 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(90, 94, 70);
+  background-color: #87b5b5;
+  color: #212529;
+  ;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    background: #fff;
+    display: inline-block
 }
 
 
@@ -31,7 +35,7 @@ code {
 .header {
     padding: 5px;
     box-shadow: 1px 1px 15px rgb(14, 13, 13);
-    background-color: rgb(101, 112, 34);
+    background-color: #4aa3a3;;
 
 }
 
@@ -56,7 +60,7 @@ textarea{
    margin: 0;
    padding: 1.5%;
    resize: none;
-   background-color: #fff;
+   background-color: #c0d8d8;
    box-shadow: 1px 1px 15px rgb(14, 13, 13);
 }
 
@@ -66,8 +70,43 @@ textarea:focus{
 
 
 .visual-preview{
-  width: 100%;
-  background-color: #fff;
+  width: 95%;
+  background-color: #c0d8d8;
    box-shadow: 1px 1px 15px rgb(14, 13, 13);
-   height: 600px;
+   padding: 2.5%;
+}
+
+.visual-preview h1, .visual-preview h2, .visual-preview h3{
+    border-bottom: 2px solid #212529
+}
+
+blockquote{
+  padding-left: 3px;
+  border-left: 3px solid #212529;
+}
+
+table{
+  border: 2px solid #212529;
+  text-align: left;
+  border-spacing: 0px;
+
+}
+
+thead tr th, tbody tr td{
+  padding: 2px 7px;
+}
+
+tbody tr:nth-child(1) td{
+  border-top: 2px solid #212529;
+  border-bottom: 2px solid #212529;
+}
+
+thead tr th:nth-child(2), tbody tr td:nth-child(2){
+  border-left: 2px solid #212529;
+  border-right: 2px solid #212529;
+}
+
+img{
+  width: 100%;
+  min-height: 80px
 }
